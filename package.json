@@ -1,8 +1,8 @@
 {
   "devDependencies": {
     "eslint": "^7.27.0"
-  }
-  "scripts": {
-    "lint": "eslint . --fix && prettier --write \"**/*.js\" \"**/*.json\"",
   },
+  "scripts": {
+    "lint": "eslint . --fix && prettier --write \"**/*.js\" \"**/*.json\""
+  }
 }

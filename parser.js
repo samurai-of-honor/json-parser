@@ -1,6 +1,8 @@
 const fs = require('fs');
 
-let fileContent = fs.readFileSync("test.json", "utf8");
+let test = fs.readFileSync("test.json", "utf8");
+let test2 = fs.readFileSync("test2.json", "utf8");
+
 
 const inputCheck = (input) => {
     let start = input.slice(0, 1);
@@ -74,9 +76,13 @@ const arrayParser = (input) => {
     return (input.startsWith(']')) ? [arr, input.slice(1)] : null;
 }
 
-
-const inpStr = fileContent.toString();
-
+console.log("-------------------------\nFirst test:\n-------------------------")
+const inpStr = test.toString();
 const output = objectParser(inpStr)[0];
-
 console.log(JSON.stringify(output, null, 2));
+
+
+console.log("-------------------------\nSecond test:\n-------------------------")
+const inpStr2 = test2.toString();
+const output2 = objectParser(inpStr2)[0];
+console.log(JSON.stringify(output2, null, 2));

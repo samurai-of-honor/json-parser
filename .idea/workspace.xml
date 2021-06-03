@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5779a195-b1e1-4fc1-aba4-cc6405df83cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Course-work.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/parser.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1tM68fXvzBP177uW9FDb5YmlNfL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -94,21 +94,21 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1622567707417" />
-    <state width="1515" height="660" key="GridCell.Tab.0.bottom" timestamp="1622569909263">
+    <state width="1515" height="676" key="GridCell.Tab.0.bottom" timestamp="1622759403378">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="660" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1622569909263" />
-    <state width="1515" height="660" key="GridCell.Tab.0.center" timestamp="1622569909263">
+    <state width="1515" height="676" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1622759403378" />
+    <state width="1515" height="676" key="GridCell.Tab.0.center" timestamp="1622759403378">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="660" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1622569909263" />
-    <state width="1515" height="660" key="GridCell.Tab.0.left" timestamp="1622569909263">
+    <state width="1515" height="676" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1622759403378" />
+    <state width="1515" height="676" key="GridCell.Tab.0.left" timestamp="1622759403377">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="660" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1622569909263" />
-    <state width="1515" height="660" key="GridCell.Tab.0.right" timestamp="1622569909263">
+    <state width="1515" height="676" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1622759403377" />
+    <state width="1515" height="676" key="GridCell.Tab.0.right" timestamp="1622759403378">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="660" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1622569909263" />
+    <state width="1515" height="676" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1622759403378" />
   </component>
 </project>
