@@ -1,23 +1,25 @@
-{"menu": {
-  "header": "SVG Viewer",
-  "items": [
-    {"id": "Open"},
-    {"id": "OpenNew", "label": "Open New"},
-    {"id": "Float", "label": 3.14},
-    {"id": "ZoomOut", "label": "Zoom Out"},
-    {"id": "Number", "label": 1038},
-    {"id": "Quality"},
-    {"id": "Pause"},
-    {"id": "Mute"},
-    {"id": "Find", "label": "Find..."},
-    {"id": "Null", "label": null},
-    {"id": "Copy"},
-    {"id": "CopyAgain", "label": "Copy Again"},
-    {"id": "CopySVG", "label": "Copy SVG"},
-    {"id": "ViewSVG", "label": "View SVG"},
-    {"id": "ViewSource", "label": "View Source"},
-    {"id": "SaveAs", "label": "Save As"},
-    {"id": "Help"},
-    {"id": "About", "label": "About Adobe CVG Viewer..."}
-  ]
-}}
+{
+  "menu": {
+    "header": "SVG Viewer",
+    "items": [
+      { "id": "Open" },
+      { "id": "OpenNew", "label": "Open New" },
+      { "id": "Float", "label": 3.14 },
+      { "id": "ZoomOut", "label": "Zoom Out" },
+      { "id": "Number", "label": 1038 },
+      { "id": "Quality" },
+      { "id": "Pause" },
+      { "id": "Mute" },
+      { "id": "Find", "label": "Find..." },
+      { "id": "Null", "label": null },
+      { "id": "Copy" },
+      { "id": "CopyAgain", "label": "Copy Again" },
+      { "id": "CopySVG", "label": "Copy SVG" },
+      { "id": "ViewSVG", "label": "View SVG" },
+      { "id": "ViewSource", "label": "View Source" },
+      { "id": "SaveAs", "label": "Save As" },
+      { "id": "Help" },
+      { "id": "About", "label": "About Adobe CVG Viewer..." }
+    ]
+  }
+}
