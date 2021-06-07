@@ -2,8 +2,19 @@
 
 const fs = require('fs');
 
-const test = fs.readFileSync('test.json', 'utf8');
-const test2 = fs.readFileSync('test2.json', 'utf8');
+const testToRun = () => {
+  let test;
+  if (process.argv[2] !== undefined) {
+    if (fs.existsSync(process.argv[2])) {
+      test = fs.readFileSync(process.argv[2], 'utf8');
+    } else {
+      console.log(`Cant find file named: ${process.argv[2]}`);
+    }
+  } else {
+    test = fs.readFileSync('test.json', 'utf8');
+  }
+  return test;
+};
 
 const inputCheck = input => {
   const start = input.slice(0, 1);
@@ -84,12 +95,11 @@ const arrayParser = input => {
   return input.startsWith(']') ? [arr, input.slice(1)] : null;
 };
 
-console.log('------------------------\nFirst test:\n------------------------');
-const inpStr = test.toString();
-const output = objectParser(inpStr)[0];
-console.log(JSON.stringify(output, null, 2));
+const test = testToRun();
 
-console.log('------------------------\nSecond test:\n------------------------');
-const inpStr2 = test2.toString();
-const output2 = objectParser(inpStr2)[0];
-console.log(JSON.stringify(output2, null, 2));
+if (test) {
+  console.log('------------------------\nTest:\n------------------------');
+  const inpStr = test.toString();
+  const output = objectParser(inpStr)[0];
+  console.log(JSON.stringify(output, null, 2));
+}
