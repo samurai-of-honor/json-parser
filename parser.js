@@ -16,7 +16,7 @@ const testToRun = () => {
   return test;
 };
 
-const inputCheck = input => {
+const inputCheck = (input) => {
   const start = input.slice(0, 1);
   const query = /^[-+]?(\d+(\.\d*)?|\.\d+)([e][+-]?\d+)?/i;
   if (start === '{') return objectParser(input);
@@ -28,16 +28,16 @@ const inputCheck = input => {
   else if (input.startsWith('null')) return [null, input.slice(4)];
 };
 
-const spaceParser = input =>
-  (input.match(/^[\s\n]/) ? input.slice(input.match(/\S/).index) : input);
+const spaceParser = (input) =>
+  input.match(/^[\s\n]/) ? input.slice(input.match(/\S/).index) : input;
 
-const numberParser = input => {
+const numberParser = (input) => {
   const query = /^[-+]?(\d+(\.\d*)?|\.\d+)([e][+-]?\d+)?/i;
   const number = input.match(query)[0];
   return [parseFloat(number), input.slice(number.length)];
 };
 
-const stringParser = input => {
+const stringParser = (input) => {
   if (!input.startsWith('"')) return null;
   let string = '';
   input = input.slice(1);
@@ -49,7 +49,7 @@ const stringParser = input => {
   return input.startsWith('"') ? [string, input.slice(1)] : null;
 };
 
-const objectParser = input => {
+const objectParser = (input) => {
   if (!input.startsWith('{')) return null;
   const object = {};
   input = input.slice(1);
@@ -75,7 +75,7 @@ const objectParser = input => {
   return input.startsWith('}') ? [object, input.slice(1)] : null;
 };
 
-const arrayParser = input => {
+const arrayParser = (input) => {
   if (!input.startsWith('[')) return null;
   input = input.slice(1);
   const arr = [];
